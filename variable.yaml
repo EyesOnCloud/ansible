@@ -1,6 +1,6 @@
 ---
 - name: Deploy and start Apache HTTPD service
-  hosts: ansi-node1
+  hosts: eoc-ansible-node1
   become: yes
   vars:
     web_pkg: httpd
@@ -43,5 +43,5 @@
   tasks:
     - name: Ensure the webserver is reachable
       uri:
-        url: http://ansi-node1.example.com
+        url: http://eoc-ansible-node1.example.com
         status_code: 200
