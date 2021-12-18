@@ -1,6 +1,6 @@
 ---
 - name: Install remote facts
-  hosts: ansi-node1
+  hosts: eoc-ansible-node1
   become: yes
   vars:
     remote_dir: /etc/ansible/facts.d
