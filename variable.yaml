@@ -43,5 +43,5 @@
   tasks:
     - name: Ensure the webserver is reachable
       uri:
-        url: http://eoc-ansible-node1.example.com
+        url: http://eoc-ansible-node1
         status_code: 200
