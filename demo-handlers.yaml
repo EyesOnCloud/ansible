@@ -1,4 +1,4 @@
-- hosts: ansi-node2
+- hosts: eoc-ansible-node2
   become: yes
   become_method: sudo
   handlers:
