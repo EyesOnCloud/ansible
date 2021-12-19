@@ -1,5 +1,5 @@
 - name: Task Failure Exercise
-  hosts: ansi-node1
+  hosts: eoc-ansible-node1
   vars:
     web_package: http
     db_package: mariadb-server
