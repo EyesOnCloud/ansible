@@ -1,6 +1,6 @@
 ---
 - name: Enable intranet services
-  hosts: eoc-ansible-node1
+  hosts: eoc-ansible-node2
   become: yes
   tasks:
         - name: latest version of httpd and firewalld installed
